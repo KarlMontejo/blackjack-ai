@@ -1,0 +1,7 @@
+POST http://localhost:3000/suggest
+Content-Type: application/json
+
+{
+  "playerCards": ["10H", "5S"],
+  "dealerCard": "KC"
+}
